@@ -1,0 +1,52 @@
+{
+  "name": "project-react",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000P\u0000r\u0000o\u0000j\u0000e\u0000c\u0000t\u0000-\u0000H\u0000o\u0000t\u0000e\u0000l\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "webpack": "webpack --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevJosvid/Project-Hotel.git"
+  },
+  "author": "JosvidC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevJosvid/Project-Hotel/issues"
+  },
+  "homepage": "https://github.com/DevJosvid/Project-Hotel#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "@babel/preset-react": "^7.12.13",
+    "autoprefixer": "^10.2.4",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.19.0",
+    "css-loader": "^5.0.2",
+    "express": "^4.17.1",
+    "file-loader": "^6.2.0",
+    "handlebars": "^4.7.7",
+    "html-loader": "^2.0.0",
+    "html-webpack-plugin": "^5.1.0",
+    "image-webpack-loader": "^7.0.1",
+    "mongoose": "^5.11.16",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "postcss-loader": "^5.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "rimraf": "^3.0.2",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.22.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^7.1.5"
+  }
+}
